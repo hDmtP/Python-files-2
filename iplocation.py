@@ -8,7 +8,7 @@
 import geoip2.database
 import socket as s
 import winsound
-print("Enter the targeted website url\n")
+print("Enter the targeted website url:\n")
 host = input()
 print(f"IP address of {host} is: {s.gethostbyname(host)}\n")
 reader = geoip2.database.Reader(r'C:\Users\user\Downloads\GeoLite2-City_20200814\GeoLite2-City.mmdb')
